@@ -36,7 +36,7 @@ body {
   margin-bottom: 1vh;
 
   font-size: 1vw;
-  
+  border-radius: 5px;
 }
 
 .phone-login-input-container {
@@ -53,13 +53,14 @@ body {
 .button {
   cursor: pointer;
   border-style: solid;
-  border-radius: 25px;
+  border-radius: 5px;
 
   display: flex;
   margin: 0.5vw 5vw;
   justify-content: center;
   height: 3vw;
   align-items: center;
+
 }
 
 .button-main {
@@ -91,3 +92,4 @@ body {
   font-size: 1.5vw;
   font-weight: bold;
 }
+

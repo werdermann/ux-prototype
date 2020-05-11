@@ -1,60 +1,59 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>UX Prototype</title>
 
-    <head>
-        <title>UX Prototype</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Adding jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
 
-        <!-- Adding jQuery -->
-        <script   src="https://code.jquery.com/jquery-3.5.0.min.js"   integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="   crossorigin="anonymous"></script>
-        
-        <!-- Own Script File -->
-        <script src="script.js"></script>
+    <!-- Own Script File -->
+    <script src="script.js"></script>
 
-        <!-- Loading External Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Loading External Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    </head>
-
-
-    <body >
-
-        <div class="main-container">
-
-            <div class="phone-login-container">
-            
-                <div class="logo-container">
-                    <img id="logo" src="lion.png">
-                    Willkommen
-                </div>
-              
-                <div class="phone-login-input-container">
-    
-                   
-    
-                    <input class="phone-login-input-item" type="text" placeholder="Benutzername">
-                    
-                    <input class="phone-login-input-item" type="text" placeholder="Passwort">
-                    
-                </div>
-    
-                <div class="phone-login-button-container">
-    
-                    <div class="button button-main">
-                        Login
-                    </div>
-                    
-                    <div class="button button-second">
-                        Registrieren
-                    </div>
-                        
-                </div>
-    
-            </div>
-
+  <body>
+    <div class="main-container">
+      <div class="phone-login-container">
+        <div class="logo-container">
+          <img id="logo" src="lion.png" />
+          Willkommen
         </div>
 
-    </body>
+        <div class="phone-login-input-container">
+          <input
+            class="phone-login-input-item"
+            type="text"
+            placeholder="Benutzername"
+          />
 
+          <input
+            class="phone-login-input-item"
+            type="text"
+            placeholder="Passwort"
+          />
+        </div>
+
+        <div class="phone-login-button-container">
+          <div class="button button-main">
+            Login
+          </div>
+
+          <div class="button button-second">
+            Registrieren
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
