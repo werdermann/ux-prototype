@@ -32,6 +32,11 @@ body {
 .phone-login-input-item {
   width: 15vw;
   height: 1.5vw;
+
+  margin-bottom: 1vh;
+
+  font-size: 1vw;
+  
 }
 
 .phone-login-input-container {
@@ -53,7 +58,7 @@ body {
   display: flex;
   margin: 0.5vw 5vw;
   justify-content: center;
-  height: 2vw;
+  height: 3vw;
   align-items: center;
 }
 
@@ -79,7 +84,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-right: 5vw;
+  margin-right: 2vw;
 
   color: #be1b64;
 
