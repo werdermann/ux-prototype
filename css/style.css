@@ -1,0 +1,85 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1vw;
+    background-color: grey;
+}
+
+.row {}
+
+.container {
+    background-color: antiquewhite;
+}
+
+.phone-login-container {
+    background-color: antiquewhite;
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40vh;
+    height: 80vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 0px 1vw #1f1f1f, 0px 0px 0px 1vw #191919, 0px 0px 0px 1vw #111;
+}
+
+.phone-login-input-item {
+    width: 15vw;
+    height: 1.5vw;
+    margin-bottom: 1vh;
+    font-size: 1vw;
+    border-radius: 5px;
+}
+
+.phone-login-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-login-button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    margin: 0.5vw auto;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+}
+
+.button-main {
+    background-color: #be1b64;
+    border-color: #be1b64;
+    color: white;
+}
+
+.button-second {
+    background-color: white;
+    border-color: #be1b64;
+    color: #be1b64;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+    color: #be1b64;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.empty {
+    height: 5vh;
+}
