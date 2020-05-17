@@ -11,3 +11,53 @@
   height: 64px;
   line-height: 64px;
 }
+
+.mdl-grid {
+
+  justify-content: center;
+
+}
+
+
+.mdl-cell {
+
+  /* background-color: red; */
+  
+}
+
+.mdl-card {
+
+  width: 100%;
+
+}
+
+.orange {
+
+  color: orange;
+
+  background-color: red;
+
+}
+
+.center-text {
+
+  text-align: center;
+
+}
+
+.profile {
+
+  font-size: 200px;
+
+  background-color: orange;
+
+  border-radius: 50%;
+
+}
+
+
+#first-page {
+
+  justify-content: left;
+
+}
