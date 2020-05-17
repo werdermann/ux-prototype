@@ -2,6 +2,10 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: whitesmoke;
     color: #f28c0f;
+
+    width: 750px;
+    height: 1334px;
+
 }
 
 .h1 {

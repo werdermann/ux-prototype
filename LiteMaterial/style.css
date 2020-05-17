@@ -1,0 +1,13 @@
+.mdl-layout__tab-bar-container {
+  height: 64px;
+}
+
+.mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: white;
+  height: 4px;
+}
+
+.mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
