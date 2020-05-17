@@ -61,3 +61,48 @@
   justify-content: left;
 
 }
+
+#logo-1 {
+  height: 100px; /* Grobe Maße */
+}
+
+#logo-2 {
+  height: 70px; /* Grobe Maße */
+}
+
+.logo-container {
+
+  justify-content: center;
+
+  align-items: center;
+
+  display: flex;
+
+}
+
+.login-screen {
+
+  height: 90%;
+
+  align-content: center;
+
+}
+
+body {
+
+  background-color: whitesmoke;
+
+}
+
+.button-link {
+
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+
+#username-input {
+
+  margin-bottom: -40px;
+
+}

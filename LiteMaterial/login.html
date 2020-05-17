@@ -8,6 +8,8 @@
 
         <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>    
     
+        <link rel="stylesheet" type="text/css" href="style.css">
+
         <title>Login Screen</title>
     
     </header>
@@ -15,46 +17,69 @@
 
 <body>
 
-    <div class="mdl-grid">
-        <div class="mdl-layout-spacer"></div>
-          <div class="mdl-cell mdl-cell--4-col">
-       <form action="#">
-        
-        <!-- Content -->
-        
+    <div class="login-screen">
 
-        <div>
-            Willkommen
+        <div class="mdl-grid login-screen">
+        
+            <div class="mdl-cell mdl-cell--12-col center-text">
+                
+                <div class="logo-container"> 
+                    <img id="logo-1" src="Material/Logo-02.png" />
+    
+                    <h3 style="color: #f28c0f;">Willkommen</h3>
+    
+                    <img id="logo-2" src="Material/Logo-03.png" />
+    
+                </div>
+    
+            </div>
+    
+            <div class="mdl-cell mdl-cell--12-col center-text">
+    
+                <div id="username-input" class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="username"/>
+                    <label class="mdl-textfield__label" for="username">Benutzername</label>
+                </div>
+  
+            </div>
+    
+            <div class="mdl-cell mdl-cell--12-col center-text">
+                
+                <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="username"/>
+                    <label class="mdl-textfield__label" for="username">Passwort</label>
+                </div> 
+    
+            </div>
+    
+            <div class="mdl-cell mdl-cell--12-col center-text">
+    
+
+                    <a class="button-link" href="./index.html">                
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        
+                            Login
+                    
+                        </button>
+                    </a>
+
+               
+        
+    
+                <!-- Primary-colored flat button -->
+    
+                <button class="mdl-button mdl-js-button mdl-button--primary">
+    
+                    Registrieren
+    
+                </button>
+      
+    
+            </div>
+
         </div>
-
-        <div class="mdl-textfield mdl-js-textfield">
-           <input class="mdl-textfield__input" type="text" id="username"/>
-           <label class="mdl-textfield__label" for="username">Benutzername</label>
-        </div>
-         
-        <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="username"/>
-            <label class="mdl-textfield__label" for="username">Passwort</label>
-        </div>
-        
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-            Login
-        </button>
-
-        <button class="mdl-button mdl-js-button mdl-button--raised">
-            Registrieren
-        </button>
-
-        
-
-
-
-       </form>
-       </div>
-          <div class="mdl-layout-spacer"></div>
-       </div>
-
-
+            
+    </div>
 
 </body>
 
